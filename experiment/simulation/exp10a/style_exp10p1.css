@@ -1,0 +1,723 @@
+/*Lab:exp_10_Part1_Arithmetic Logic Unit
+	File name: style_exp10p1.css
+    Author:Prakriti Dhang */
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+  .div{
+  width: 100%;
+  }
+  .mimg{
+  width:100%;
+  }
+  .img{
+  width:100%;
+  }
+}
+
+
+.mimg{
+   
+    width:645px;  /* 645px */
+	
+}
+
+
+.blink{
+  text-decoration: blink;
+}
+
+
+.blink {
+-webkit-animation: blink 2s linear infinite;	
+ color:red;
+ 
+}
+@-webkit-keyframes blink {
+0% { opacity: 0; }
+}
+
+
+#b1{
+	position:absolute;
+	top: 128px;
+right: 592px;
+  cursor:pointer;
+    
+    
+}
+
+#b2
+{
+position: absolute;
+
+top: 152px;
+right: 592px;
+display:block;
+cursor:pointer;
+/*bottom: 335px;
+right: 1058px;*/
+
+}
+
+#b3
+{
+
+  position: absolute;
+top: 176px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+#b4
+{
+
+position: absolute;
+
+top: 199px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+
+#b5
+{
+
+position: absolute;
+
+top: 221px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+
+#b6
+{
+
+position: absolute;
+top: 243px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+
+#b7
+{
+
+position: absolute;
+top: 262px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+#b8
+{
+
+position: absolute;
+top: 284px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+
+
+
+#b9
+{
+position: absolute;
+top: 307px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+
+#b10
+{
+position: absolute;
+
+top: 328px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+
+#b11
+{
+
+  position: absolute;
+top: 348px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+
+#b12
+{
+
+position: absolute;
+
+top: 367px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+#b13
+{
+
+position: absolute;
+
+top: 387px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+
+#b14
+{
+
+position: absolute;
+top: 408px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+
+#b15
+{
+
+position: absolute;
+top: 430px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+#b16
+{
+
+position: absolute;
+top: 454px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+
+
+
+
+#y1{
+	position: absolute;
+	top:115px;
+    /*right:10px;*/
+    visibility:hidden;
+    
+    
+    
+    
+    
+}
+
+#loff1{
+  position:absolute;
+  top:45px;
+  right:40px;
+  visibility:block;
+}
+#lon1{
+  position:absolute;
+  top:55px;
+  right:40px;
+  visibility:hidden;
+}
+
+#loff2{
+  position:absolute;
+  top:97px;
+  right:40px;
+  visibility:block;
+}
+#lon2{
+  position:absolute;
+  top:107px;
+  right:38px;
+  visibility:hidden;
+}
+
+
+#loff3{
+  position:absolute;
+  top:160px;
+  right:36px;
+  visibility:block;
+}
+#lon3{
+  position:absolute;
+  top:170px;
+  right:38px;
+  visibility:hidden;
+}
+
+#loff4{
+  position:absolute;
+  top:226px;
+  right:40px;
+  visibility:block;
+}
+#lon4{
+  position:absolute;
+  top:236px;
+  right:41px;
+  visibility:hidden;
+}
+
+
+#loff5{
+  position:absolute;
+  top:276px;
+  right:40px;
+  visibility:block;
+}
+#lon5{
+  position:absolute;
+  top:286px;
+  right:39px;
+  visibility:hidden;
+}
+#loff6{
+  position:absolute;
+  top:331px;
+  right:49px;
+  visibility:block;
+}
+#lon6{
+  position:absolute;
+  top:341px;
+  right:43px;
+  visibility:hidden;
+}
+
+#loff7{
+  position:absolute;
+  top:396px;
+  right:50px;
+  visibility:block;
+}
+#lon7{
+  position:absolute;
+  top:406px;
+  right:47px;
+  visibility:hidden;
+}
+#loff8{
+  position:absolute;
+  top:458px;
+  right:40px;
+  visibility:block;
+}
+#lon8{
+  position:absolute;
+  top:466px;
+  right:35px;
+  visibility:hidden;
+}
+
+
+
+#b1r
+{
+position: absolute;
+top: 128px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+
+}
+#b1g
+{
+position: absolute;
+top: 128px;
+right: 592px;
+display:none;
+}
+
+#b2r
+{
+position: absolute;
+
+top: 152px;
+right: 592px;
+display:block;
+cursor:pointer;
+/*bottom: 335px;
+right: 1058px;*/
+
+}
+#b2g
+{
+
+position: absolute;
+top: 152px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+
+#b3r
+{
+
+  position: absolute;
+top: 176px;
+right: 5928px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b3g
+{
+
+position: absolute;
+top: 176px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+
+#b4r
+{
+
+position: absolute;
+
+top: 199px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b4g
+{
+
+position: absolute;
+top: 199px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+
+#b5r
+{
+
+position: absolute;
+
+top: 221px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b5g
+{
+
+position: absolute;
+top: 221px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+
+#b6r
+{
+
+position: absolute;
+top: 243px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b6g
+{
+
+position: absolute;
+top: 243px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+
+#b7r
+{
+
+position: absolute;
+top: 262px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b7g
+{
+
+position: absolute;
+top: 262px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+#b8r
+{
+
+position: absolute;
+top: 284px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b8g
+{
+
+position: absolute;
+top: 284px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+
+
+
+#b9r
+{
+position: absolute;
+top: 307px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b9g
+{
+position: absolute;
+top: 307px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+
+#b10r
+{
+position: absolute;
+
+top: 328px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b10g
+{
+
+position: absolute;
+top: 328px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+
+#b11r
+{
+
+  position: absolute;
+top: 348px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b11g
+{
+
+position: absolute;
+top: 348px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+
+#b12r
+{
+
+position: absolute;
+
+top: 367px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b12g
+{
+
+position: absolute;
+top: 367px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+
+#b13r
+{
+
+position: absolute;
+
+top: 387px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b13g
+{
+
+position: absolute;
+top: 387px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+
+#b14r
+{
+
+position: absolute;
+top: 408px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b14g
+{
+
+position: absolute;
+top: 408px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+
+#b15r
+{
+
+position: absolute;
+top: 430px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b15g
+{
+
+position: absolute;
+top: 430px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
+#b16r
+{
+
+position: absolute;
+top: 454px;
+right: 592px;
+display:block;
+/*bottom: 335px;
+right: 1058px;*/
+cursor:pointer;
+}
+#b16g
+{
+
+position: absolute;
+top: 454px;
+right: 592px;
+display:none;
+cursor:pointer;
+}
