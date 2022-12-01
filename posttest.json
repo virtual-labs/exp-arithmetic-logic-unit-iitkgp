@@ -1,0 +1,39 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Solving (-11) + (-2) will yield which two's-complement answer?",
+      "answers": {
+        "a": "1110 1101",
+        "b": "1111 1001",
+        "c": "1111 0011",
+        "d": "1110 1001"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What are constants in VHDL code?",
+      "answers": {
+        "a": "Fixed numbers represented by a name",
+        "b": "Fixed variables used in functions",
+        "c": "Fixed number types", 
+        "d": "Constants do not exist in VHDL code"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
