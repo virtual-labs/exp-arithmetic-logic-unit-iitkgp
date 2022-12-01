@@ -1,4 +1,4 @@
-### Theory
+## Theory
  <div class="content" id="experiment-article-section-2-content">                            
                             <span style="font-weight:bold;">Arithmetic Logic Units:</span>&nbsp;The 4 bit Arithmetic Logic Units perform 16 different Arithmetic operation and 16 different logical operation.This Arithmetic Logic Units controlled by 4 select inputs and one mode control input.
 				<br />
