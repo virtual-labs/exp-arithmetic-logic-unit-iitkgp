@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The most commonly used system for representing signed binary numbers is the:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "1's-complement system.",
+        "b": "sign-magnitude system.",
+        "c": "10's-complement system.",
+        "d": "2's-complement system."
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The 2's-complement system is to be used to add the signed binary numbers 11110010 and 11110011. Determine, in decimal, the sign and value of each number and their sum.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "-113, -114 and -227",
+        "b": "-14,-13, and -27",
+        "c": "-11,-16,and -27",
+        "d": "-27, -13 and -40"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,7 +32,24 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The decimal value for E<sub>16</sub> is:",
+      "answers": {
+        "a": "15<sub>10</sub>",
+        "b": "14<sub>10</sub>",
+        "c": "13<sub>10</sub>",
+        "d": "12<sub>10</sub>"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
