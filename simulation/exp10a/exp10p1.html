@@ -1,0 +1,300 @@
+
+<!--Lab:exp_10_Part1_Arithmetic Logic Unit
+	File name: exp10p1.html
+    Author:Prakriti Dhang--->
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+    <style>
+    table,th,td{
+        border:1px solid black;
+    border-collapse:collapse;
+    
+}
+
+    th,td
+    {
+        padding:4px;
+        text-align: center;
+        
+        
+    }
+.intbl{
+height: 200px;
+overflow: auto;
+}
+    ol li{
+                padding-left:1em;
+                padding-bottom: 0.3em;
+            }
+
+   /* tbody{
+        height: 100px;
+        overflow: auto;
+    }*/
+    #addbar{
+         text-decoration: overline;
+     }
+     .responsive {
+  width: 100%;
+  height: auto;
+}
+    </style>
+    <link rel="stylesheet" type="text/css" href="style_exp10p1.css">
+   
+    <script type="text/javascript" src="calljsfile_exp10p1.js"></script>
+   
+    <!--script type="text/javascript" src="circuit_exp10p1.js"></script>
+    
+    <script type="text/javascript" src="arithmeticnote2_exp10p1.js"></script-->
+   
+    
+    
+
+
+    <script type="text/javascript" src="addtbl10p1.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" id="">
+    </script>
+
+</head>
+<body style="background-color:#0d213b" onload="ledchngcall()">
+
+
+    <div class="row">
+         <img src="../../images/iitkgp.png" style="width:100px;height:100px;" class="responsive"/>
+    </div>
+    
+    
+
+    
+    
+        <div class="row">
+            <b><h2 style="text-align:center;color:rgb(54,230,78);">Design of Arithmetic Logic Unit </h2></b>
+        </div>
+    
+    <div class="row">
+      <div class="column">
+        <div id="inst" style="background-color:#96baf0;font-size:16px;font-weight:bold;border:1px solid #3385ff">
+            <div class="dropdown">
+                <p style="text-align:center;color:rgb(26,0,97)"> INSTRUCTION</p>
+                <div class="dropdown-content" style="background-color:white;border:1px solid #3385ff">
+                    
+                    <ol type="1">
+                        <li> Apply high voltage to M(mode control input) and low volatge to \(C_{n}\). 
+                        <li> Apply \(V_{CC}\) and low level voltage to ground(GND).</li>
+                        <li>Then apply low voltage to all the 4 select inputs (\(S_{3}\) \(S_{2}\) \(S_{1}\) \(S_{0}\)). Logical operation will be performed. The output will be inverted A.</li></li>
+                        <li> Next, apply high voltage to \(S_{0}\) and apply low voltage to all other select inputs(\(S_{3}\) \(S_{2}\) \(S_{1}\)). Logical operation will be performed. The output will be <span style="text-decoration:overline"> A + B</span>.
+                        </li>
+                        <li>Now apply high voltage to\(S_{1}\) and low voltage to all other select inputs(\(S_{3}\) \(S_{2}\) \(S_{0}\)). Logical operation will be performed. The output will be <span style="text-decoration:overline">A</span>B.
+                        </li>
+                        <li> To check the outputs for arithmetic operations, apply high voltage to \(C_{n}\) and low volatge to M. Then apply low voltage to all the 4 select inputs(\(S_{3}\) \(S_{2}\) \(S_{1}\) \(S_{0}\)). Arithemetic operation will be performed.The output will be A</li>
+                        <li> Apply high voltage to \(S_{0}\) and apply low voltage to all other select inputs(\(S_{3}\) \(S_{2}\) \(S_{1}\)). Arithmetic operation will be performed. The output will be  A + B.
+                        </li>
+                        <li>For Arithmetic operation A+ <span style="text-decoration:overline">B</span>, apply high voltage to \(S_{1}\) and low voltage to all other select inputs(\(S_{3}\) \(S_{2}\) \(S_{0}\)). 
+                        </li>
+                        <li>Apply all the combinations to all the select inputs(\(S_{3}\) \(S_{2}\) \(S_{1}\)) to check the Logical and Arithmetic operation output.</li>
+                        <li><b>Note</b>: Red symbolize as Low (L), Green symbolize as High(H).</li>
+                    </ol> 
+    
+
+                     
+    
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div id="tablein" style="background-color:#96baf0;font-size:16px;font-weight:bold;border:1px solid #3385ff; ">
+    <div class="tbtitle">
+                <p style="text-align:center;color:rgb(26,0,97)">TRUTH TABLE 
+                    <input type="button" id="add"  value="Add to Table"  onclick="aintbl()" style=" background-color: #d9e2f0;  float:right; cursor: pointer;font-size: 16px;font-weight: bold; border:3px solid rgb(26, 0, 97); visibility: hidden;"/></p>
+                <div class="intbl" style="background-color:white;border:1px solid #3385ff; ">
+                    <p id="eqalu" style="text-align: center;"><b></b></p>
+                <center>
+                <table id="mytable"  >
+            
+            <tr> 
+                <th rowspan="4">Decimal</th>
+                <th colspan="4">Mode Select Inputs</th>
+                
+                <th colspan="3">Active High inputs and \(F_{n}\) Outputs</th>
+                <th rowspan="4">Equation
+
+                    
+                </th>
+    
+                
+            </tr>
+            
+            <tr>
+            
+            
+            
+        </tr>
+        <tr >
+            <td rowspan ="2">S3</td>
+            <td rowspan ="2">S2</td>
+            <td rowspan ="2">S1</td>
+            <td rowspan ="2">S0</td>
+            
+    
+            
+            <td>Logic Function</td>
+            <td colspan="2">M=L; Arthimetic Operation</td>
+           
+        </tr>
+        <tr>
+            <td>M=H</td>
+            <td>\(C_{n}\)=L </td>
+            <td>  \(C_{n}\)=H </td>
+
+        </tr>
+       <tbody style="overflow:scroll;"></tbody>
+       
+       
+        
+            </table>
+            </center>
+                </div>
+    
+    </div>
+    </div>
+    
+    
+    <div>
+        
+            
+        <div id="showalt" class="dropdown-content blink" style="background-color:white;border:4px solid #ff0909; visibility: hidden;">
+            <p class="con" id="v" style="text-align:center;font-size:large;font-weight:bold">Connect Vcc </p>
+            <p class="con" id="gnd" style="text-align:center;font-size:large;font-weight:bold">Please disconnect GND </p>
+    
+        </div>
+    
+    </div>
+      </div>
+    
+      <div class="column" style="float:right">
+        <div id="cmaind" style="background-color:#96baf0;font-size:16px;font-weight:bold;border:1px solid #3385ff">
+    <div class="ctitle">
+                <p style="text-align:center;color:rgb(26,0,97)">CIRCUIT DIAGRAM</p>
+                
+                <div class="crkt" style="background-color:white; position:absolute; border:2px solid #3385ff;">
+                
+                <img class="mimg" src="alu_cir.png" alt="circuit image"/>
+                
+    
+    
+    
+    
+                <div id="b1g"  ></div>
+                <div id="b1r"  ></div>
+
+                <div id="b2g"  ></div>
+                <div id="b2r"  ></div>
+
+                <div id="b3g"  ></div>
+                <div id="b3r"  ></div>
+                <div id="b4g"  ></div>
+                <div id="b4r"  ></div>
+
+                <div id="b5g"  ></div>
+                <div id="b5r"  ></div>
+                <div id="b6g"  ></div>
+                <div id="b6r"  ></div>
+
+                <div id="b7g"  ></div>
+                <div id="b7r"  ></div>
+
+                <div id="b8g"  ></div>
+                <div id="b8r"  ></div>
+                <div id="b9g"  ></div>
+                <div id="b9r"  ></div>
+                <div id="b10g"  ></div>
+                <div id="b10r"  ></div>
+                <div id="b11g"  ></div>
+                <div id="b11r"  ></div>
+                <div id="b12g"  ></div>
+                <div id="b12r"  ></div>
+                <div id="b13g"  ></div>
+                <div id="b13r"  ></div>
+                <div id="b14g"  ></div>
+                <div id="b14r"  ></div>
+                <div id="b15g"  ></div>
+                <div id="b15r"  ></div>
+                <div id="b16g"  ></div>
+                <div id="b16r"  ></div>
+
+                <img id="b1" onclick="a1()" src="red.JPG"  />
+                <img id="b2" onclick="a2()" src="red.JPG"  />
+                <img id="b3" onclick="a3()" src="red.JPG"  />
+                <img id="b4" onclick="a4()" src="red.JPG"  />
+                <img id="b5" onclick="a5()" src="red.JPG"  />
+                <img id="b6" onclick="a6()" src="red.JPG"  />
+                <img id="b7" onclick="a7()" src="red.JPG"  />
+                <img id="b8" onclick="a8()" src="red.JPG"  />
+                <img id="b9" onclick="a9()" src="red.JPG"  />
+                <img id="b10" onclick="a10()" src="red.JPG"  />
+                <img id="b11" onclick="a11()" src="red.JPG"  />
+                <img id="b12" onclick="a12()" src="red.JPG"  />
+                <img id="b13" onclick="a13()" src="red.JPG"  />
+                <img id="b14" onclick="a14()" src="red.JPG"  />
+                <img id="b15" onclick="a15()" src="red.JPG"  />
+                <img id="b16" onclick="a16()" src="red.JPG"  />
+
+
+
+    <img id="lon1" src="ledon.png">
+    <img id="loff1" src="loff.png">
+
+    <img id="lon2" src="ledon.png">
+    <img id="loff2" src="loff.png">
+
+    <img id="lon3" src="ledon.png">
+    <img id="loff3" src="loff.png">
+
+    <img id="lon4" src="ledon.png">
+    <img id="loff4" src="loff.png">
+
+    <img id="lon5" src="ledon.png">
+    <img id="loff5" src="loff.png">
+
+    <img id="lon6" src="ledon.png">
+    <img id="loff6" src="loff.png">
+
+    <img id="lon7" src="ledon.png">
+    <img id="loff7" src="loff.png">
+
+    <img id="lon8" src="ledon.png">
+    <img id="loff8" src="loff.png">
+
+
+
+                </div>
+                
+                
+                </div>
+                
+    
+                
+    
+    </div>
+    
+    
+    
+        
+    
+    
+    
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    </body></html>

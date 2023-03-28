@@ -1,0 +1,210 @@
+
+/home/runner/work/exp-arithmetic-logic-unit-iitkgp/exp-arithmetic-logic-unit-iitkgp/experiment/simulation/exp10a/addtbl10p1.js
+   10:5   warning  'clmns' is defined but never used                no-unused-vars
+   10:12  warning  'vlt' is defined but never used                  no-unused-vars
+   10:17  warning  'columns' is defined but never used              no-unused-vars
+   10:26  warning  'rest' is defined but never used                 no-unused-vars
+   11:5   warning  'dataPoints' is assigned a value but never used  no-unused-vars
+   13:5   warning  'table' is already defined                       no-redeclare
+   13:18  warning  'switching' is defined but never used            no-unused-vars
+   13:38  warning  'shouldSwitch' is defined but never used         no-unused-vars
+   14:10  warning  'aintbl' is defined but never used               no-unused-vars
+   17:13  warning  'decimal' is not defined                         no-undef
+   19:12  warning  'inpS03' is not defined                          no-undef
+   20:12  warning  'inpS03' is not defined                          no-undef
+   21:12  warning  'inpS03' is not defined                          no-undef
+   22:12  warning  'inpS03' is not defined                          no-undef
+   24:12  warning  'mmcn' is not defined                            no-undef
+   25:12  warning  'mmcn' is not defined                            no-undef
+   26:12  warning  'mmcn' is not defined                            no-undef
+   28:12  warning  'eqalul' is not defined                          no-undef
+   63:3   warning  'swap' is not defined                            no-undef
+   66:10  warning  'swap' is not defined                            no-undef
+   68:5   warning  'swap' is not defined                            no-undef
+   74:7   warning  'shouldswap' is not defined                      no-undef
+   83:9   warning  'shouldswap' is not defined                      no-undef
+   90:9   warning  'shouldswap' is not defined                      no-undef
+   94:7   warning  'swap' is not defined                            no-undef
+  109:3   warning  'swap' is not defined                            no-undef
+  112:10  warning  'swap' is not defined                            no-undef
+  114:5   warning  'swap' is not defined                            no-undef
+  120:7   warning  'shouldswap' is not defined                      no-undef
+  126:7   warning  'r7x' is not defined                             no-undef
+  127:7   warning  'r7y' is not defined                             no-undef
+  130:67  warning  'r7x' is not defined                             no-undef
+  130:92  warning  'r7y' is not defined                             no-undef
+  132:9   warning  'shouldswap' is not defined                      no-undef
+  145:9   warning  'shouldswap' is not defined                      no-undef
+  152:7   warning  'swap' is not defined                            no-undef
+  159:7   warning  'rowCount' is assigned a value but never used    no-unused-vars
+  162:7   warning  'swap' is not defined                            no-undef
+
+/home/runner/work/exp-arithmetic-logic-unit-iitkgp/exp-arithmetic-logic-unit-iitkgp/experiment/simulation/exp10a/arithmeticnote2_exp10p1.js
+  934:11  error  Parsing error: Identifier 'decA_add_decB' has already been declared
+
+/home/runner/work/exp-arithmetic-logic-unit-iitkgp/exp-arithmetic-logic-unit-iitkgp/experiment/simulation/exp10a/calljsfile_exp10p1.js
+   9:9   warning  'b0' is assigned a value but never used  no-unused-vars
+  10:9   warning  'a0' is assigned a value but never used  no-unused-vars
+  11:7   warning  's3' is assigned a value but never used  no-unused-vars
+  12:6   warning  's2' is assigned a value but never used  no-unused-vars
+  13:7   warning  's1' is assigned a value but never used  no-unused-vars
+  14:8   warning  's0' is assigned a value but never used  no-unused-vars
+  15:8   warning  'a1' is assigned a value but never used  no-unused-vars
+  16:7   warning  'b1' is assigned a value but never used  no-unused-vars
+  17:8   warning  'a2' is assigned a value but never used  no-unused-vars
+  18:7   warning  'b2' is assigned a value but never used  no-unused-vars
+  19:8   warning  'a3' is assigned a value but never used  no-unused-vars
+  20:7   warning  'b3' is assigned a value but never used  no-unused-vars
+  21:4   warning  'vcc' is not defined                     no-undef
+  22:3   warning  'gnd' is not defined                     no-undef
+  55:11  warning  'a7' is defined but never used           no-unused-vars
+  75:10  warning  'a8' is defined but never used           no-unused-vars
+
+/home/runner/work/exp-arithmetic-logic-unit-iitkgp/exp-arithmetic-logic-unit-iitkgp/experiment/simulation/exp10a/circuit_exp10p1.js
+  978:10  error  Parsing error: Identifier 'decAB_bar' has already been declared
+
+/home/runner/work/exp-arithmetic-logic-unit-iitkgp/exp-arithmetic-logic-unit-iitkgp/experiment/simulation/exp10b/addtbl10p1.js
+   10:5   warning  'clmns' is defined but never used                no-unused-vars
+   10:12  warning  'vlt' is defined but never used                  no-unused-vars
+   10:17  warning  'columns' is defined but never used              no-unused-vars
+   10:26  warning  'rest' is defined but never used                 no-unused-vars
+   11:5   warning  'dataPoints' is assigned a value but never used  no-unused-vars
+   13:5   warning  'table' is already defined                       no-redeclare
+   13:18  warning  'switching' is defined but never used            no-unused-vars
+   13:38  warning  'shouldSwitch' is defined but never used         no-unused-vars
+   14:10  warning  'aintbl' is defined but never used               no-unused-vars
+   17:13  warning  'decimal' is not defined                         no-undef
+   19:12  warning  'inpS03' is not defined                          no-undef
+   20:12  warning  'inpS03' is not defined                          no-undef
+   21:12  warning  'inpS03' is not defined                          no-undef
+   22:12  warning  'inpS03' is not defined                          no-undef
+   24:12  warning  'mmcn' is not defined                            no-undef
+   25:12  warning  'mmcn' is not defined                            no-undef
+   26:12  warning  'mmcn' is not defined                            no-undef
+   28:13  warning  'equalu' is not defined                          no-undef
+   64:7   warning  'swap' is not defined                            no-undef
+   67:14  warning  'swap' is not defined                            no-undef
+   69:9   warning  'swap' is not defined                            no-undef
+   75:11  warning  'shouldswap' is not defined                      no-undef
+   84:13  warning  'shouldswap' is not defined                      no-undef
+   91:13  warning  'shouldswap' is not defined                      no-undef
+   95:11  warning  'swap' is not defined                            no-undef
+  110:7   warning  'swap' is not defined                            no-undef
+  113:14  warning  'swap' is not defined                            no-undef
+  115:9   warning  'swap' is not defined                            no-undef
+  121:11  warning  'shouldswap' is not defined                      no-undef
+  127:11  warning  'r7x' is not defined                             no-undef
+  128:11  warning  'r7y' is not defined                             no-undef
+  131:71  warning  'r7x' is not defined                             no-undef
+  131:96  warning  'r7y' is not defined                             no-undef
+  133:13  warning  'shouldswap' is not defined                      no-undef
+  146:13  warning  'shouldswap' is not defined                      no-undef
+  153:11  warning  'swap' is not defined                            no-undef
+  160:11  warning  'rowCount' is assigned a value but never used    no-unused-vars
+  163:11  warning  'swap' is not defined                            no-undef
+
+/home/runner/work/exp-arithmetic-logic-unit-iitkgp/exp-arithmetic-logic-unit-iitkgp/experiment/simulation/exp10b/arithmeticnote1_exp10p1.js
+     5:9   warning  'decimal' is assigned a value but never used           no-unused-vars
+     7:9   warning  'inpS03' is assigned a value but never used            no-unused-vars
+    10:9   warning  'S0' is assigned a value but never used                no-unused-vars
+    10:12  warning  'S1' is assigned a value but never used                no-unused-vars
+    10:16  warning  'S2' is assigned a value but never used                no-unused-vars
+    10:19  warning  'S3' is assigned a value but never used                no-unused-vars
+    16:9   warning  'dec_sumc' is defined but never used                   no-unused-vars
+    17:9   warning  'binaryStrF03' is assigned a value but never used      no-unused-vars
+    21:9   warning  'dec_valuenotAinp' is assigned a value but never used  no-unused-vars
+    23:10  warning  's0' is defined but never used                         no-unused-vars
+    23:13  warning  's1' is defined but never used                         no-unused-vars
+    23:16  warning  's2' is defined but never used                         no-unused-vars
+    23:19  warning  's3' is defined but never used                         no-unused-vars
+    24:9   warning  'vcc' is defined but never used                        no-unused-vars
+    24:14  warning  'gnd' is defined but never used                        no-unused-vars
+    25:9   warning  'equalu' is assigned a value but never used            no-unused-vars
+    31:13  warning  'b0' is assigned a value but never used                no-unused-vars
+    32:15  warning  'a0' is assigned a value but never used                no-unused-vars
+    39:14  warning  'a1' is assigned a value but never used                no-unused-vars
+    40:13  warning  'b1' is assigned a value but never used                no-unused-vars
+    41:14  warning  'a2' is assigned a value but never used                no-unused-vars
+    42:13  warning  'b2' is assigned a value but never used                no-unused-vars
+    43:14  warning  'a3' is assigned a value but never used                no-unused-vars
+    44:13  warning  'b3' is assigned a value but never used                no-unused-vars
+    57:14  warning  'mmcn' is not defined                                  no-undef
+    73:17  warning  'mmcn' is not defined                                  no-undef
+    87:18  warning  'mmcn' is not defined                                  no-undef
+   102:19  warning  'mmcn' is not defined                                  no-undef
+   115:18  warning  'mmcn' is not defined                                  no-undef
+   129:18  warning  'mmcn' is not defined                                  no-undef
+   143:18  warning  'mmcn' is not defined                                  no-undef
+   158:18  warning  'mmcn' is not defined                                  no-undef
+   172:18  warning  'mmcn' is not defined                                  no-undef
+   186:18  warning  'mmcn' is not defined                                  no-undef
+   200:18  warning  'mmcn' is not defined                                  no-undef
+   214:18  warning  'mmcn' is not defined                                  no-undef
+   228:18  warning  'mmcn' is not defined                                  no-undef
+   242:18  warning  'mmcn' is not defined                                  no-undef
+   256:18  warning  'mmcn' is not defined                                  no-undef
+   269:18  warning  'mmcn' is not defined                                  no-undef
+   395:18  warning  'a1' is defined but never used                         no-unused-vars
+   416:18  warning  'a2' is defined but never used                         no-unused-vars
+   434:18  warning  'a3' is defined but never used                         no-unused-vars
+   452:18  warning  'a4' is defined but never used                         no-unused-vars
+   471:18  warning  'a5' is defined but never used                         no-unused-vars
+   490:18  warning  'a6' is defined but never used                         no-unused-vars
+   509:18  warning  'a7' is defined but never used                         no-unused-vars
+   529:18  warning  'a8' is defined but never used                         no-unused-vars
+   548:18  warning  'a9' is defined but never used                         no-unused-vars
+   567:18  warning  'a10' is defined but never used                        no-unused-vars
+   585:18  warning  'a11' is defined but never used                        no-unused-vars
+   604:18  warning  'a12' is defined but never used                        no-unused-vars
+   623:18  warning  'a13' is defined but never used                        no-unused-vars
+   643:18  warning  'a14' is defined but never used                        no-unused-vars
+   661:18  warning  'a15' is defined but never used                        no-unused-vars
+   679:18  warning  'a16' is defined but never used                        no-unused-vars
+   756:16  warning  'notA3' is not defined                                 no-undef
+   757:16  warning  'notA2' is not defined                                 no-undef
+   758:16  warning  'notA1' is not defined                                 no-undef
+   759:16  warning  'notA0' is not defined                                 no-undef
+   762:20  warning  'notA3' is not defined                                 no-undef
+   763:20  warning  'notA3' is not defined                                 no-undef
+   766:17  warning  'notA3' is not defined                                 no-undef
+   769:20  warning  'notA2' is not defined                                 no-undef
+   770:17  warning  'notA2' is not defined                                 no-undef
+   773:14  warning  'notA2' is not defined                                 no-undef
+   776:17  warning  'notA1' is not defined                                 no-undef
+   777:17  warning  'notA1' is not defined                                 no-undef
+   780:14  warning  'notA1' is not defined                                 no-undef
+   783:17  warning  'notA0' is not defined                                 no-undef
+   784:17  warning  'notA0' is not defined                                 no-undef
+   787:14  warning  'notA0' is not defined                                 no-undef
+   791:23  warning  'notA3' is not defined                                 no-undef
+   791:29  warning  'notA2' is not defined                                 no-undef
+   791:35  warning  'notA1' is not defined                                 no-undef
+   791:41  warning  'notA0' is not defined                                 no-undef
+   805:15  warning  'notB3' is not defined                                 no-undef
+   806:15  warning  'notB2' is not defined                                 no-undef
+   807:15  warning  'notB1' is not defined                                 no-undef
+   808:15  warning  'notB0' is not defined                                 no-undef
+   811:19  warning  'notB3' is not defined                                 no-undef
+   812:19  warning  'notB3' is not defined                                 no-undef
+   815:16  warning  'notB3' is not defined                                 no-undef
+   818:19  warning  'notB2' is not defined                                 no-undef
+   819:16  warning  'notB2' is not defined                                 no-undef
+   822:13  warning  'notB2' is not defined                                 no-undef
+   825:16  warning  'notB1' is not defined                                 no-undef
+   826:16  warning  'notB1' is not defined                                 no-undef
+   829:13  warning  'notB1' is not defined                                 no-undef
+   832:16  warning  'notB0' is not defined                                 no-undef
+   833:16  warning  'notB0' is not defined                                 no-undef
+   836:13  warning  'notB0' is not defined                                 no-undef
+   840:22  warning  'notB3' is not defined                                 no-undef
+   840:28  warning  'notB2' is not defined                                 no-undef
+   840:34  warning  'notB1' is not defined                                 no-undef
+   840:40  warning  'notB0' is not defined                                 no-undef
+   973:17  warning  'i' is not defined                                     no-undef
+   973:21  warning  'i' is not defined                                     no-undef
+   973:25  warning  'i' is not defined                                     no-undef
+   998:13  warning  'Cn4' is not defined                                   no-undef
+  1004:17  warning  'Cn4' is not defined                                   no-undef
+
+✖ 195 problems (2 errors, 193 warnings)
+
