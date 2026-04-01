@@ -9,12 +9,7 @@
         "c": "10's-complement system.",
         "d": "2's-complement system."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -26,12 +21,7 @@
         "c": "-11,-16,and -27",
         "d": "-27, -13 and -40"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -43,12 +33,7 @@
         "c": "13<sub>10</sub>",
         "d": "12<sub>10</sub>"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "b",
       "difficulty": "beginner"
     }
